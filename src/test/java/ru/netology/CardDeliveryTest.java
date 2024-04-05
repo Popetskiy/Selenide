@@ -31,6 +31,7 @@ public class CardDeliveryTest {
                 .shouldHave(exactText("Успешно! Встреча успешно забронирована на " + dueDate));
     }
 
+
     @Test
     void shouldSendSuccessfulRequestWithDayMore3() {
         open("http://localhost:9999");
